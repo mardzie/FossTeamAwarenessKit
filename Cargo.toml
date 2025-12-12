@@ -1,9 +1,8 @@
 [workspace]
-edition = "2024"
-members = ["client", "server", "common", "core"]
+resolver = "3"
+members = ["client", "common", "core", "server"]
 
 [workspace.package]
 license = "MIT OR Apache-2.0"
 
 [workspace.dependencies]
-osm_overpass = "0.1.2"
